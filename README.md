@@ -1,0 +1,1 @@
+Run **yarn start** and **yarn start:fast** from the status bar.
