@@ -37,7 +37,6 @@ export function activate(context: vscode.ExtensionContext) {
 		terminal.hide();
 		terminal.dispose();
 		terminal = vscode.window.createTerminal('XE', '/bin/zsh');
-		terminal.show();
 		terminal.sendText('yarn start:fast');
 	});
 
@@ -45,7 +44,6 @@ export function activate(context: vscode.ExtensionContext) {
 		terminal.hide();
 		terminal.dispose();
 		terminal = vscode.window.createTerminal('XE', '/bin/zsh');
-		terminal.show();
 		terminal.sendText('yarn start');
 	});
 
