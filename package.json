@@ -2,7 +2,7 @@
 	"name": "crossengage",
 	"displayName": "crossengage",
 	"description": "",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "souzafilho",
 	"engines": {
 		"vscode": "^1.30.0"
@@ -15,10 +15,12 @@
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [{
-			"command": "extension.helloWorld",
-			"title": "Hello World"
-		}]
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
